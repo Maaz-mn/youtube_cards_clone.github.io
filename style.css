@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(0, 0, 0);
+}
 .cards{
     /* border: 1px solid black; */
     width: 28%;
@@ -24,13 +27,14 @@
     left: 60px;
     font-weight: bolder;
     font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: white;
 }
 .channel-name{
     position: relative;
     bottom: 17%;
     left: 65px;
-    color: rgba(128, 128, 128, 0.719);
+    color: rgba(155, 149, 149, 0.719);
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -41,4 +45,9 @@
     color: rgba(128, 128, 128, 0.719);
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards:hover {
+    border: 2px;
+    border-style: inset;
+    background-color: rgb(202, 193, 193);
 }
