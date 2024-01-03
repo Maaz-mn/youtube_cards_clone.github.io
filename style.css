@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cards{
+    /* border: 1px solid black; */
+    width: 28%;
+    height: 300px;
+   margin: 30px;
+   display: inline-block;
+}
+.channel-profile{
+   border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.video1{
+    border-radius: 20px;
+    position: relative;
+}
+.video1-title{
+    position: relative;
+    bottom: 18%;
+    left: 60px;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.channel-name{
+    position: relative;
+    bottom: 17%;
+    left: 65px;
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.views{
+    position: relative;
+    bottom: 17%;
+    left: 65px;
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
